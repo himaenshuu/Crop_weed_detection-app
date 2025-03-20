@@ -1,0 +1,37 @@
+services:
+  - type: web
+    name: flask-app
+    env: python
+    region: singapore # Adjust this to your preferred region (e.g., 'singapore', 'oregon')
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn main:app" # Adjust if needed based on your file and app instance names
+    envVars:
+      - key: FLASK_ENV
+        value: production
+    disk:
+      name: persistent-storage
+      sizeGB: 1 # Adjust disk size as needed
+
+    # Ignore files and directories as specified in your .gitignore
+    # These files will not be included in the deployment
+    ignore:
+      - "*.pyc"
+      - "*.pyo"
+      - "__pycache__/"
+      - "venv/"
+      - "env/"
+      - "ENV/"
+      - "instance/"
+      - "uploads/"
+      - "*.log"
+      - ".DS_Store"
+      - "Thumbs.db"
+      - "desktop.ini"
+      - ".vscode/"
+      - "*.pt"
+      - "*.tmp"
+      - "*.swp"
+      - "*.jpg"
+      - "*.png"
+      - "*.bmp"
+      - "*.tiff"
