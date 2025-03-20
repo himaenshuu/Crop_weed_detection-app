@@ -19,8 +19,8 @@ Make sure you have these installed:
 ## 📥 Installation
 1. **📂 Clone the repo**
    ```bash
-   git clone https://github.com/your-repo/flask-yolo-app.git
-   cd flask-yolo-app
+   git clone https://github.com/himaenshuu/Crop_weed_detection-app.git
+   cd Crop_weed_detection-app
    ```
 
 2. **🔧 Create Conda env (optional)**
