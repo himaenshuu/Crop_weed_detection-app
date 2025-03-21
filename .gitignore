@@ -10,7 +10,6 @@ ENV/
 
 # Flask instance and upload folders
 instance/
-uploads/
 
 # Log files
 *.log
@@ -23,16 +22,7 @@ desktop.ini
 # VS Code settings
 .vscode/
 
-
-# Model files
-*.pt
-
 # Temporary files
 *.tmp
 *.swp
 
-# OpenCV outputs or cache (if generated)
-*.jpg
-*.png
-*.bmp
-*.tiff
