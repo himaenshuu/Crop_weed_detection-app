@@ -22,7 +22,3 @@ desktop.ini
 # VS Code settings
 .vscode/
 
-# Temporary files
-*.tmp
-*.swp
-
