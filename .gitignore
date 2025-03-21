@@ -1,0 +1,37 @@
+# Python bytecode and cache
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment directories
+venv/
+env/
+ENV/
+
+# Flask instance and upload folders
+instance/
+uploads/
+
+# Log files
+*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code settings
+.vscode/
+
+
+# Model files
+*.pt
+
+# Temporary files
+*.swp
+
+# OpenCV outputs or cache (if generated)
+*.jpg
+*.png
+*.bmp
+*.tiff
