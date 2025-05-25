@@ -70,4 +70,4 @@ flask-yolo-app/
 - Modify `index.html` 🎨 to customize the UI.
 
 ## 📜 License
-This project is open-source 🔓. Modify & use it as needed
+This project is open-source 🔓. Modify & use it as needed.
